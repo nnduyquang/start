@@ -18,6 +18,9 @@
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+        created(){
+            axios.get('api/profile').then(({data}) => (response=>data));
         }
     }
 </script>

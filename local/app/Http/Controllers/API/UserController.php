@@ -8,9 +8,14 @@ use App\Http\Controllers\Controller;
 
 class UserController extends Controller
 {
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
     public function __construct()
     {
-        $this->middleware('api');
+        $this->middleware('auth:api');
     }
     /**
      * Display a listing of the resource.
@@ -65,6 +70,9 @@ class UserController extends Controller
     public function show($id)
     {
         //
+    }
+    public function profile(){
+        return auth('api')->user();
     }
 
     /**
