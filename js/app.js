@@ -6316,6 +6316,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
+  },
+  created: function created() {
+    axios.get('api/profile').then(function (_ref) {
+      var data = _ref.data;
+      return function (response) {
+        return data;
+      };
+    });
   }
 });
 
@@ -77626,8 +77634,8 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\xampp\htdocs\start\local\resources\assets\js\app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! E:\xampp\htdocs\start\local\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\start\local\resources\assets\js\app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\start\local\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ })

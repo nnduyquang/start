@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/defuse/php-encryption" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/laravel/passport" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/league/oauth2-server" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/zendframework/zend-diactoros" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
