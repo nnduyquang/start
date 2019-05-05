@@ -1,0 +1,90 @@
+[2019-05-05 05:10:17] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(687): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(572): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 E:\\xampp\\htdocs\\start\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
+[2019-05-05 05:10:23] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(687): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(572): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 E:\\xampp\\htdocs\\start\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
+[2019-05-05 05:10:29] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(687): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(572): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 E:\\xampp\\htdocs\\start\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
+[2019-05-05 05:10:56] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(687): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(572): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 E:\\xampp\\htdocs\\start\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
+[2019-05-05 05:11:02] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(687): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(572): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 E:\\xampp\\htdocs\\start\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
+[2019-05-05 05:20:41] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(687): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 E:\\xampp\\htdocs\\start\\local\\vendor\\symfony\\finder\\Finder.php(572): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 E:\\xampp\\htdocs\\start\\local\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 E:\\xampp\\htdocs\\start\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
