@@ -8,12 +8,14 @@ window._ = require('lodash');
  */
 
 try {
-    window.$ = window.jQuery = require('jquery');
+    global.$ = global.jQuery = require('jquery');
+    // window.$ = window.jQuery = require('jquery');
 
     // require('bootstrap-sass');
     require('admin-lte');
-    require('admin-lte/plugins/iCheck/icheck')
-    require('admin-lte/plugins/bootstrap/js/bootstrap')
+    require('admin-lte/plugins/iCheck/icheck');
+    require('admin-lte/plugins/bootstrap/js/bootstrap');
+    require('bootstrap-toggle/js/bootstrap-toggle');
 } catch (e) {}
 
 /**

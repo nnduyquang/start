@@ -7,6 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/local/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/local/vendor/guzzlehttp/promises" />
       <excludeFolder url="file://$MODULE_DIR$/local/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/local/vendor/intervention/image" />
       <excludeFolder url="file://$MODULE_DIR$/local/vendor/laravel/passport" />
       <excludeFolder url="file://$MODULE_DIR$/local/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/local/vendor/league/event" />
@@ -19,17 +20,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="PHARS">
-        <CLASSES>
-          <root url="phar://$MODULE_DIR$/local/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
-          <root url="phar://$MODULE_DIR$/local/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
-        </CLASSES>
-        <SOURCES>
-          <root url="phar://$MODULE_DIR$/local/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
-          <root url="phar://$MODULE_DIR$/local/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>

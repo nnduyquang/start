@@ -8,6 +8,7 @@ require('./bootstrap');
 var globals = require('./config');
 window.Vue = require('vue');
 import moment from 'moment';
+import CKEditor from '@ckeditor/ckeditor5-vue';
 import {Form, HasError, AlertError} from 'vform';
 import Gate from './Gate';
 Vue.prototype.$gate=new Gate(window.user);
@@ -18,18 +19,22 @@ import swal from 'sweetalert2';
 import Popper from 'popper.js';
 window.Popper = Popper;
 window.Form = Form;
+window.GloabalUrl=globals.config.base_url;
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
 Vue.component('pagination', require('laravel-vue-pagination'));
 
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
+Vue.use(CKEditor);
 let routes = [
     {path: globals.config.base_url + '/dashboard', component: require('./components/Dashboard.vue').default},
     {path: globals.config.base_url + '/developer', component: require('./components/Developer.vue').default},
     {path: globals.config.base_url + '/profile', component: require('./components/Profile.vue').default},
     {path: globals.config.base_url + '/users', component: require('./components/Users.vue').default},
-    {path: globals.config.base_url + '*', component: require('./components/NotFound.vue').default}
+    {path: globals.config.base_url + '/category-post', component: require('./components/Category/CategoryPost/Category.vue').default},
+    {path: globals.config.base_url + '/category-post/insert-or-update', component: require('./components/Category/CategoryPost/InsertUpdate.vue').default},
+    // {path: globals.config.base_url + '*', component: require('./components/NotFound.vue').default}
 ]
 const router = new VueRouter({
     mode: 'history',
@@ -107,6 +112,4 @@ const app = new Vue({
             Fire.$emit('searching');
         },2000)
     }
-
-
 });

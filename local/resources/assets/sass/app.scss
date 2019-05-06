@@ -9,6 +9,7 @@ $fa-font-path: "../webfonts";
 @import "~admin-lte/dist/css/adminlte.css";
 @import "~admin-lte/plugins/bootstrap/css/bootstrap.min.css";
 @import "~admin-lte/plugins/iCheck/square/blue.css";
+@import "~bootstrap-toggle/css/bootstrap-toggle.min.css";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
@@ -16,4 +17,10 @@ $fa-font-path: "../webfonts";
 .router-link-exact-active{
   background-color: #3f51b5;
   color: white !important;
+}
+.is_active_color{
+  color: green;
+}
+.is_disable_color{
+  color:red;
 }

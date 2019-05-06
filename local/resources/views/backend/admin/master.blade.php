@@ -104,6 +104,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </ul>
                     </li>
                     @endcan
+                    <li class="nav-item">
+                        <router-link to="{{get_base_url()}}/category-post" class="nav-link">
+                            <i class="nav-icon fas fas fa-book"></i>
+                            <p>
+                                Danh Mục Bài Viết
+                            </p>
+                        </router-link>
+                    </li>
                     @can('isAdmin')
                     <li class="nav-item">
                         <router-link to="{{get_base_url()}}/developer" class="nav-link">
