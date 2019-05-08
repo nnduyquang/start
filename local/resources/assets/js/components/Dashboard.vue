@@ -1,7 +1,8 @@
 <template>
     <div class="container">
         <div class="row">
-            <not-found></not-found>
+            <!--<not-found></not-found>-->
+            This is dashboard
         </div>
     </div>
 </template>

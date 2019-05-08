@@ -1,4 +1,5 @@
-let mix = require('laravel-mix');
+// let mix = require('laravel-mix');
+let mix = require('laravel-elixir-vue-2');
 mix.setPublicPath('../');
 mix.setResourceRoot('../');
 

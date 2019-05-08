@@ -26,20 +26,20 @@ Vue.component('pagination', require('laravel-vue-pagination'));
 
 
 Vue.use(VueRouter);
-Vue.use(CKEditor);
 let routes = [
     {path: globals.config.base_url + '/dashboard', component: require('./components/Dashboard.vue').default},
     {path: globals.config.base_url + '/developer', component: require('./components/Developer.vue').default},
     {path: globals.config.base_url + '/profile', component: require('./components/Profile.vue').default},
     {path: globals.config.base_url + '/users', component: require('./components/Users.vue').default},
     {path: globals.config.base_url + '/category-post', component: require('./components/Category/CategoryPost/Category.vue').default},
-    {path: globals.config.base_url + '/category-post/insert-or-update', component: require('./components/Category/CategoryPost/InsertUpdate.vue').default},
+    {path: globals.config.base_url + '/category-create-edit/:slug',name:'create-edit-category', component: require('./components/Category/CategoryPost/InsertUpdate.vue').default},
     // {path: globals.config.base_url + '*', component: require('./components/NotFound.vue').default}
 ]
 const router = new VueRouter({
     mode: 'history',
     routes // short for `routes: routes`
-})
+});
+// router.start;
 Vue.filter('upText', function (text) {
     return text.charAt(0).toUpperCase() + text.slice(1)
 });
@@ -100,6 +100,8 @@ Vue.component(
 );
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('insert-update', require('./components/Category/CategoryPost/InsertUpdate.vue'));
+
 
 const app = new Vue({
     el: '#app',

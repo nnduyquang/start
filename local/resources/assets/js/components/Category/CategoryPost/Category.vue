@@ -5,7 +5,7 @@
                 <div class="card">
                     <div class="card-header"><h3 class="card-title">Danh Mục Bài Viết</h3>
                         <div class="card-tools">
-                            <router-link :to="getUrl()" class="btn btn-success">Thêm Mới <i class="fas fa-plus fa-fw"></i></router-link>
+                            <router-link :to="{name:'create-edit-category',params:{slug:'create'}}" class="btn btn-success">Thêm Mới <i class="fas fa-plus fa-fw"></i></router-link>
                         </div>
                     </div>
                     <div class="card-body table-responsive p-0">
@@ -59,13 +59,9 @@
         methods:{
             insertNewItem(){
 
-            },
-            getUrl(){
-                return this.global+'/category-post/insert-or-update';
             }
         },
         mounted() {
-            this.global=GloabalUrl;
             console.log('Component mounted.')
         }
     }

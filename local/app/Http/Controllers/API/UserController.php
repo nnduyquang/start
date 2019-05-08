@@ -19,6 +19,7 @@ class UserController extends Controller
         $this->middleware('auth:api');
 
     }
+
     /**
      * Display a listing of the resource.
      *
@@ -30,6 +31,7 @@ class UserController extends Controller
         if (\Gate::allows('isAdmin') || \Gate::allows('isAuthor')) {
             return User::latest()->paginate(5);
         }
+
 
     }
 
@@ -77,7 +79,9 @@ class UserController extends Controller
     {
         //
     }
-    public function profile(){
+
+    public function profile()
+    {
         return auth('api')->user();
     }
 
@@ -117,6 +121,11 @@ class UserController extends Controller
         //
     }
 
+    public function categoryCreate($slug)
+    {
+        return view('backend.admin.category.create-edit.blade');
+    }
+
     /**
      * Update the specified resource in storage.
      *
@@ -126,17 +135,17 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $user=User::findOrFail($id);
+        $user = User::findOrFail($id);
         $this->validate($request, [
             'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users,email,'.$user->id,
+            'email' => 'required|string|email|max:255|unique:users,email,' . $user->id,
             'password' => 'sometimes|string|min:6',
         ]);
         if (!empty($request->password)) {
             $request->merge(['password' => bcrypt($request->password)]);
         }
         $user->update($request->all());
-        return ['message'=>'Update the user info'];
+        return ['message' => 'Update the user info'];
     }
 
     /**
@@ -161,7 +170,7 @@ class UserController extends Controller
                     ->orWhere('email', 'LIKE', "%$search%")
                     ->orWhere('type', 'LIKE', "%$search%");
             })->paginate(20);
-        }else{
+        } else {
             return User::latest()->paginate(5);
         }
         return $users;
